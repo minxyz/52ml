@@ -1,0 +1,521 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-29 21:03+0000\n"
+"PO-Revision-Date: 2016-03-29 17:10+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: src/apps/core/templates/index.html:9
+msgid "ml"
+msgstr ""
+
+#: src/apps/core/templates/index.html:10
+msgid ""
+"A tool for married people describe their spouse's expectations for the "
+"degrees of intimacy in making close friends."
+msgstr ""
+
+#: src/apps/core/templates/index.html:12
+msgid ""
+"\n"
+"<strong>\n"
+"\t<p>It’s hard to make the world into one family…</p>\n"
+"\t<p>…but <em>we choose to fly to the Moon and do other great things,</em>\n"
+"\t<em>not because they’re easy, but because they’re hard.</em></p>\n"
+"</strong>\n"
+msgstr ""
+
+#: src/apps/core/templates/index.html:20
+msgid ""
+"\n"
+"<p>Our ideal is a world where all people enjoy close relationships like "
+"members of one family. Unfortunately, today, there are many married people "
+"who not necessarily can honestly enjoy sufficiently close relationships with "
+"people outside of their family, especially with people of opposite gender, "
+"as those relationships are often misunderstood and mistreated by others. "
+"People often resort to divorces because of that. We think that in many cases "
+"divorces are not necessary, and married couples tend to understand that, "
+"beginning to be more like brothers and sisters, and giving each others the "
+"freedom to make close friends in our lives. However, unlike our spouses, the "
+"society is not as tolerant, and is quick to misconstrue close friendships as "
+"infidelity to one's spouse. In modern society, thus, simply having close "
+"friends becomes risky. To reduce the risk, we need more understanding, not "
+"just from our lovers, but from the society at large. Therefore, we created "
+"this site to enable people to clearly specify and share the expectations of "
+"their spouses to their friends whom they want to have closer relationships "
+"with. We think the more we have close and intimate relationships in the "
+"soiety, and excite each others' minds, the more people will share resources "
+"and help, and the more projects we will realize, cures for diseases found, "
+"etc., which is a win for everyone.</p>\n"
+msgstr ""
+
+#: src/apps/core/templates/index.html:24
+msgid ""
+"\n"
+"<strong>\n"
+"\t<p>We can create a\n"
+"\twonderful life for each others,\n"
+"\tworth living!</p>\n"
+"</strong>\n"
+msgstr ""
+
+#: src/apps/core/templates/index.html:33
+msgid ""
+"\n"
+"<p>In order to do it, we created a kind of <a href=\"https://en.wikipedia."
+"org/wiki/Geek_Code\">Geek Code</a> at <b>52ml.xyz</b> to enable people to "
+"clearly describe and share their spouse's expectations regarding the "
+"intimacy when making friends. Try it out!</p>\n"
+msgstr ""
+
+#: src/apps/core/templates/index.html:37
+msgid "Create your 52ml Geek Code!"
+msgstr ""
+
+#: src/apps/core/templates/index.html:38
+msgid ""
+"To generate your 52ml code, check statements you like, that do not exceed "
+"your spouse's expectations."
+msgstr ""
+
+#: src/apps/core/templates/index.html:41
+msgid ""
+"\n"
+"<strong>\n"
+"<p>People’s minds are among the most complex\n"
+"objects in the universe. We might lose a big part of\n"
+"what life has to offer, if we do not travel to explore them.\n"
+"Let’s not limit ourselves to just one person to deeply\n"
+"explore and become intimate with.</p>\n"
+"</strong>\n"
+msgstr ""
+
+#: src/apps/core/templates/index.html:52
+msgid ""
+"Ideal=Ability to [in ascending order] 1) Play games together, 2) Compute, 3) "
+"Code, 4) Read books, 5) Watch movies, 6) Take classes, 7) Write books, 8) "
+"Listen to music, 9) Take care of servers, 10) Write diaries, 11) Share "
+"passwords, 12) Write scripts to analyze each other's data, 13) Share inbox, "
+"14) Share social identity."
+msgstr ""
+
+#: src/apps/core/templates/index.html:56 src/apps/core/templates/index.html:96
+#: src/apps/core/templates/index.html:136
+#: src/apps/core/templates/index.html:175
+#: src/apps/core/templates/index.html:214
+#: src/apps/core/templates/index.html:253
+#: src/apps/core/templates/index.html:292
+msgid "Choose statement"
+msgstr ""
+
+#: src/apps/core/templates/index.html:60 src/apps/core/templates/index.html:482
+msgid ""
+"My spouse would not mind if we define what we want together with my "
+"friend(s), and calculate for realizing it, – from writing shared diaries to "
+"sharing inbox, from sharing all passwords to listening to the same music, "
+"watch movies together, to writing scripts to analyze most if not all of each "
+"other’s data by intelligent algorithms, and even exchange our social "
+"identity."
+msgstr ""
+
+#: src/apps/core/templates/index.html:65 src/apps/core/templates/index.html:484
+msgid ""
+"My spouse would not mind if I engage in intellectual activities with my good "
+"friend(s), such as writing books, programming, doing math, writing diaries, "
+"sharing most passwords, taking care of all of each others’ servers, writing "
+"code to analyze most of each other’s data, computing how to live forever, "
+"and fly to other galaxies."
+msgstr ""
+
+#: src/apps/core/templates/index.html:71 src/apps/core/templates/index.html:486
+msgid ""
+"My spouse would not mind if we take care of common servers, listen to the "
+"same music, teach each other skills, voice-read books, write books, as well "
+"as calculate and code."
+msgstr ""
+
+#: src/apps/core/templates/index.html:77 src/apps/core/templates/index.html:488
+msgid ""
+"My spouse would not mind if I calculate, code, write books, take online "
+"courses with my friend, without sharing much passwords and sensitive data."
+msgstr ""
+
+#: src/apps/core/templates/index.html:83 src/apps/core/templates/index.html:490
+msgid ""
+"My spouse would not mind if I chat often, write books together, take online "
+"courses, and learn together."
+msgstr ""
+
+#: src/apps/core/templates/index.html:89 src/apps/core/templates/index.html:497
+msgid "金融"
+msgstr ""
+
+#: src/apps/core/templates/index.html:91
+msgid ""
+"Ideal=Ability to 1) Share money when in need, 2) Share financial data, 3) "
+"Together analyze investment choices, 4) Together compute ROI of investments, "
+"5) Together define goals, 6) Help each other at work."
+msgstr ""
+
+#: src/apps/core/templates/index.html:100
+#: src/apps/core/templates/index.html:500
+msgid ""
+"My spouse would support me if I would give binding promises to my friend, "
+"and share money resources for our important projects, and support each other "
+"on the times of need, and compute for optimal financial investments."
+msgstr ""
+
+#: src/apps/core/templates/index.html:105
+#: src/apps/core/templates/index.html:502
+msgid ""
+"My spouse would understand me if I share financial resources with the friend "
+"for important projects, and support each other on the times of need."
+msgstr ""
+
+#: src/apps/core/templates/index.html:111
+#: src/apps/core/templates/index.html:504
+msgid "My spouse would react neutrally, if I shared any financial resources."
+msgstr ""
+
+#: src/apps/core/templates/index.html:117
+#: src/apps/core/templates/index.html:506
+msgid ""
+"My spouse would not understand me if I shared financial resources with my "
+"friend for important project."
+msgstr ""
+
+#: src/apps/core/templates/index.html:123
+#: src/apps/core/templates/index.html:508
+msgid ""
+"My spouse would get angry if I shared financial resources with my friend for "
+"important project."
+msgstr ""
+
+#: src/apps/core/templates/index.html:129
+#: src/apps/core/templates/index.html:515
+msgid "外观"
+msgstr ""
+
+#: src/apps/core/templates/index.html:131
+msgid ""
+"Ideal=Ability to 1) Appear cute to each other, 2) Share cute emoticons with "
+"each other."
+msgstr ""
+
+#: src/apps/core/templates/index.html:140
+#: src/apps/core/templates/index.html:518
+msgid ""
+"My spouse would encourage it like a brother or sister to have cute anime-"
+"like friends. :)"
+msgstr ""
+
+#: src/apps/core/templates/index.html:145
+#: src/apps/core/templates/index.html:520
+msgid "My spouse would not envy if my friend is cute."
+msgstr ""
+
+#: src/apps/core/templates/index.html:151
+#: src/apps/core/templates/index.html:522
+msgid "My spouse doesn’t care about looks."
+msgstr ""
+
+#: src/apps/core/templates/index.html:157
+#: src/apps/core/templates/index.html:524
+msgid "My spouse would envy if my friends are too cute."
+msgstr ""
+
+#: src/apps/core/templates/index.html:163
+#: src/apps/core/templates/index.html:526
+msgid "My spouse would feel inadequate if I had very cute friends."
+msgstr ""
+
+#: src/apps/core/templates/index.html:169
+#: src/apps/core/templates/index.html:533
+msgid "触觉"
+msgstr ""
+
+#: src/apps/core/templates/index.html:171
+msgid ""
+"Ideal=Ability to 1) Put one's head on another's lap when tired, 2) Lie next "
+"to each other while watching stars or movies, and touch each other's hands, "
+"3) Hug each other for longer, like relatives who hadn't seen each other for "
+"a long time, 4) Sleep next each other when tired."
+msgstr ""
+
+#: src/apps/core/templates/index.html:179
+#: src/apps/core/templates/index.html:536
+msgid ""
+"My spouse would let me be with good friend in one bed, if we don’t make "
+"love, but like kids enjoy intellectual activities instead, such as writing "
+"books, programming, doing math, such as computing how to fly to other "
+"galaxies, or any of that sort of thing, and do a head massage for each "
+"other, when tired or sleepy."
+msgstr ""
+
+#: src/apps/core/templates/index.html:184
+#: src/apps/core/templates/index.html:538
+msgid ""
+"My spouse would let me to engage with each other, like kids in kindergarten "
+"do, – lie down next to each other on the floor."
+msgstr ""
+
+#: src/apps/core/templates/index.html:190
+#: src/apps/core/templates/index.html:540
+msgid ""
+"My spouse would agree me to put my head on my friend’s lap in a train or bus."
+msgstr ""
+
+#: src/apps/core/templates/index.html:196
+#: src/apps/core/templates/index.html:542
+msgid "My spouse would only let me hug friend shortly."
+msgstr ""
+
+#: src/apps/core/templates/index.html:202
+#: src/apps/core/templates/index.html:544
+msgid "My spouse would generally disapprove any physical contact."
+msgstr ""
+
+#: src/apps/core/templates/index.html:208
+#: src/apps/core/templates/index.html:551
+msgid "公开行为"
+msgstr ""
+
+#: src/apps/core/templates/index.html:210
+msgid ""
+"Ideal=Ability to 1) Go for walks together, 2) Go to social activities "
+"together, such as sports and the like."
+msgstr ""
+
+#: src/apps/core/templates/index.html:218
+#: src/apps/core/templates/index.html:554
+msgid ""
+"My spouse would let me walk hand-in-hand, and hug with my friend together in "
+"public."
+msgstr ""
+
+#: src/apps/core/templates/index.html:223
+#: src/apps/core/templates/index.html:556
+msgid ""
+"My spouse would let me walk with my friend frequently in public if not hand-"
+"in-hand."
+msgstr ""
+
+#: src/apps/core/templates/index.html:229
+#: src/apps/core/templates/index.html:558
+msgid "My spouse would rather let us walk, only rarely, and not hand-in-hand."
+msgstr ""
+
+#: src/apps/core/templates/index.html:235
+#: src/apps/core/templates/index.html:560
+msgid ""
+"My spouse would need a pre-text, such as sports-mate, or club member, to let "
+"me sometimes walk together with my close friend, not hand-in-hand."
+msgstr ""
+
+#: src/apps/core/templates/index.html:241
+#: src/apps/core/templates/index.html:562
+msgid "My spouse would only let me walk together if there is a third friend."
+msgstr ""
+
+#: src/apps/core/templates/index.html:247
+#: src/apps/core/templates/index.html:569
+msgid "语言"
+msgstr ""
+
+#: src/apps/core/templates/index.html:249
+msgid ""
+"Ideal=Ability to 1) Use cute words and expressions to encourage each other, "
+"2) Use diminutives and talk playfully with each others, 3) Read books aloud "
+"to each other."
+msgstr ""
+
+#: src/apps/core/templates/index.html:257
+#: src/apps/core/templates/index.html:572
+msgid ""
+"My spouse would not mind if we discuss our insecurities, intimate thoughts "
+"and strategies, and sometimes use diminutive language to refer to each other."
+msgstr ""
+
+#: src/apps/core/templates/index.html:262
+#: src/apps/core/templates/index.html:574
+msgid ""
+"My spouse would understand if we speak using diminutive language with each "
+"other in private."
+msgstr ""
+
+#: src/apps/core/templates/index.html:268
+#: src/apps/core/templates/index.html:576
+msgid ""
+"My spouse would understand if we speak diminutive language over internet "
+"conversations at home."
+msgstr ""
+
+#: src/apps/core/templates/index.html:274
+#: src/apps/core/templates/index.html:578
+msgid ""
+"My spouse would find it awkward if we speak diminutive language silently "
+"over internet at home."
+msgstr ""
+
+#: src/apps/core/templates/index.html:280
+#: src/apps/core/templates/index.html:580
+msgid ""
+"My spouse would feel bad if we speak diminutive language over internet at "
+"home."
+msgstr ""
+
+#: src/apps/core/templates/index.html:286
+#: src/apps/core/templates/index.html:587
+msgid "刺激"
+msgstr ""
+
+#: src/apps/core/templates/index.html:288
+msgid ""
+"Ideal=Ability to 1) Share sweet and exciting ideas, 2) Share enticing "
+"mysteries to excite each other's minds."
+msgstr ""
+
+#: src/apps/core/templates/index.html:296
+#: src/apps/core/templates/index.html:590
+msgid ""
+"My spouse would understand if s/he heard that we make each other feel very "
+"special to each other by sharing our minds."
+msgstr ""
+
+#: src/apps/core/templates/index.html:301
+#: src/apps/core/templates/index.html:592
+msgid ""
+"My spouse would understand if we made each other feel excited, surprised, or "
+"overwhelmed by each other’s minds."
+msgstr ""
+
+#: src/apps/core/templates/index.html:307
+#: src/apps/core/templates/index.html:594
+msgid ""
+"My spouse would allow, but find it hard to appreciate our exchange of minds."
+msgstr ""
+
+#: src/apps/core/templates/index.html:313
+#: src/apps/core/templates/index.html:596
+msgid "My spouse would hardly understand our exchange of minds."
+msgstr ""
+
+#: src/apps/core/templates/index.html:319
+#: src/apps/core/templates/index.html:598
+msgid "My spouse would envy if we exchanged our minds."
+msgstr ""
+
+#: src/apps/core/templates/index.html:325
+msgid "性别"
+msgstr ""
+
+#: src/apps/core/templates/index.html:329
+msgid "Your gender"
+msgstr ""
+
+#: src/apps/core/templates/index.html:331
+msgid "female"
+msgstr ""
+
+#: src/apps/core/templates/index.html:334
+msgid "male"
+msgstr ""
+
+#: src/apps/core/templates/index.html:338
+msgid "YOUR CODE"
+msgstr ""
+
+#: src/apps/core/templates/index.html:422
+msgid "open the link to see the result!"
+msgstr ""
+
+#: src/apps/core/templates/index.html:428
+msgid "For example, the following code:"
+msgstr ""
+
+#: src/apps/core/templates/index.html:435
+msgid ""
+"\n"
+"<p>Means that your spouse understands you if you share\n"
+"minds (M++), but don't get over excited (S+),\n"
+"and supports you to have high level of financial\n"
+"trust with friends (F++), understands having cute\n"
+"friends (A+), would understand touching each other\n"
+"to the degree of putting one's head on another's\n"
+"lap when tired (T), but would like you to walk\n"
+"with another friend when in public (B--), and\n"
+"avoid using diminutives at home (L-).</p>\n"
+msgstr ""
+
+#: src/apps/core/templates/index.html:448
+msgid "Don't know how to answer? Ask your spouse!~"
+msgstr ""
+
+#: src/apps/core/templates/index.html:450
+msgid "Can we be close friends? Sure! My 52ml code is good! :)"
+msgstr ""
+
+#: src/apps/core/templates/index.html:467
+msgid "My 52ml Geek Code is:"
+msgstr ""
+
+#: src/apps/core/templates/index.html:469
+msgid "It means my"
+msgstr ""
+
+#: src/apps/core/templates/index.html:469
+msgid "husband"
+msgstr ""
+
+#: src/apps/core/templates/index.html:469
+msgid "wife"
+msgstr ""
+
+#: src/apps/core/templates/index.html:469
+msgid "spouse"
+msgstr ""
+
+#: src/apps/core/templates/index.html:469
+msgid "would understand if I with my closest friends:"
+msgstr ""
+
+#: src/apps/core/templates/index.html:479
+msgid "脑海"
+msgstr ""
+
+#: src/apps/core/templates/index.html:611
+msgid "Return"
+msgstr ""
+
+#: src/conf/base.py:113
+msgid "English"
+msgstr "English"
+
+#: src/conf/base.py:114
+msgid "Chinese"
+msgstr "中文"
+
+#: src/conf/base.py:115
+msgid "Japanese"
+msgstr "日本語"
+
+#: src/conf/base.py:116
+msgid "Lithuanian"
+msgstr "Lietuvių"
+
+#~ msgid "hello"
+#~ msgstr "labas"

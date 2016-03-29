@@ -1,7 +1,617 @@
 {% extends "base.html" %}
+{% load i18n %}
+
 
 {% block content %}
+<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
 
-<h1>Welcome, Django!</h1>
+{% if not request.GET.s %}
+<h1><a id="52ml__Geek_Code_0"></a>52{%trans "ml" %}.xyz</h1>
+<h2><a id="_2"></a>{% trans "A tool for married people describe their spouse's expectations for the degrees of intimacy in making close friends." %}</h2>
+<blockquote>
+{% blocktrans %}
+<strong>
+	<p>It’s hard to make the world into one family…</p>
+	<p>…but <em>we choose to fly to the Moon and do other great things,</em>
+	<em>not because they’re easy, but because they’re hard.</em></p>
+</strong>
+{% endblocktrans %}
+</blockquote>
+{% blocktrans %}
+<p>Our ideal is a world where all people enjoy close relationships like members of one family. Unfortunately, today, there are many married people who not necessarily can honestly enjoy sufficiently close relationships with people outside of their family, especially with people of opposite gender, as those relationships are often misunderstood and mistreated by others. People often resort to divorces because of that. We think that in many cases divorces are not necessary, and married couples tend to understand that, beginning to be more like brothers and sisters, and giving each others the freedom to make close friends in our lives. However, unlike our spouses, the society is not as tolerant, and is quick to misconstrue close friendships as infidelity to one's spouse. In modern society, thus, simply having close friends becomes risky. To reduce the risk, we need more understanding, not just from our lovers, but from the society at large. Therefore, we created this site to enable people to clearly specify and share the expectations of their spouses to their friends whom they want to have closer relationships with. We think the more we have close and intimate relationships in the soiety, and excite each others' minds, the more people will share resources and help, and the more projects we will realize, cures for diseases found, etc., which is a win for everyone.</p>
+{% endblocktrans %}
+<blockquote>
+{% blocktrans %}
+<strong>
+	<p>We can create a
+	wonderful life for each others,
+	worth living!</p>
+</strong>
+{% endblocktrans %}
+</blockquote>
+
+{% blocktrans %}
+<p>In order to do it, we created a kind of <a href="https://en.wikipedia.org/wiki/Geek_Code">Geek Code</a> at <b>52ml.xyz</b> to enable people to clearly describe and share their spouse's expectations regarding the intimacy when making friends. Try it out!</p>
+{% endblocktrans %}
+
+<h2><a id="_17"></a>{% trans "Create your 52ml Geek Code!" %}</h2>
+<p>{% trans "To generate your 52ml code, check statements you like, that do not exceed your spouse's expectations." %}</p>
+<h3><a id="1_MINDS___21"></a>1. MINDS - 【脑海】</h3>
+<blockquote>
+{% blocktrans %}
+<strong>
+<p>People’s minds are among the most complex
+objects in the universe. We might lose a big part of
+what life has to offer, if we do not travel to explore them.
+Let’s not limit ourselves to just one person to deeply
+explore and become intimate with.</p>
+</strong>
+{% endblocktrans %}
+</blockquote>
+
+<p>{% trans "Ideal=Ability to [in ascending order] 1) Play games together, 2) Compute, 3) Code, 4) Read books, 5) Watch movies, 6) Take classes, 7) Write books, 8) Listen to music, 9) Take care of servers, 10) Write diaries, 11) Share passwords, 12) Write scripts to analyze each other's data, 13) Share inbox, 14) Share social identity." %}</p>
+
+<div data-role="fieldcontain">
+    <fieldset data-role="controlgroup" id="minds">
+		<legend>{% trans "Choose statement" %}</legend>
+            <p>
+				<input type="radio" name="minds-choice-1" id="minds-choice-1" value="2"  />
+				<label for="minds-choice-1"><strong>M++</strong></label>
+				: {% trans "My spouse would not mind if we define what we want together with my friend(s), and calculate for realizing it, – from writing shared diaries to sharing inbox, from sharing all passwords to listening to the same music, watch movies together, to writing scripts to analyze most if not all of each other’s data by intelligent algorithms, and even exchange our social identity." %}
+            </p>
+            <p>
+				<input type="radio" name="minds-choice-1" id="minds-choice-2" value="1"  />
+				<label for="minds-choice-2"><strong>M+</strong></label>
+				: {% trans "My spouse would not mind if I engage in intellectual activities with my good friend(s), such as writing books, programming, doing math, writing diaries, sharing most passwords, taking care of all of each others’ servers, writing code to analyze most of each other’s data, computing how to live forever, and fly to other galaxies." %}
+            </p>
+
+            <p>
+				<input type="radio" name="minds-choice-1" id="minds-choice-3" value="0" />
+				<label for="minds-choice-3"><strong>M</strong></label>
+				: {% trans "My spouse would not mind if we take care of common servers, listen to the same music, teach each other skills, voice-read books, write books, as well as calculate and code." %}
+            </p>
+
+            <p>
+				<input type="radio" name="minds-choice-1" id="minds-choice-4" value="-1"  />
+				<label for="minds-choice-4"><strong>M-</strong></label>
+				: {% trans "My spouse would not mind if I calculate, code, write books, take online courses with my friend, without sharing much passwords and sensitive data." %}
+            </p>
+
+            <p>
+				<input type="radio" name="minds-choice-1" id="minds-choice-5" value="-2"  />
+				<label for="minds-choice-5"><strong>M--</strong></label>
+				: {% trans "My spouse would not mind if I chat often, write books together, take online courses, and learn together." %}
+            </p>
+    </fieldset>
+</div>
+
+
+<h3><a id="2_FINANCE___41"></a>2. FINANCE - 【{% trans "金融" %}】</h3>
+
+<p>{% trans "Ideal=Ability to 1) Share money when in need, 2) Share financial data, 3) Together analyze investment choices, 4) Together compute ROI of investments, 5) Together define goals, 6) Help each other at work." %}</p>
+
+
+<div data-role="fieldcontain">
+    <fieldset data-role="controlgroup" id="finance">
+		<legend>{% trans "Choose statement" %}</legend>
+            <p>
+				<input type="radio" name="finance-choice-1" id="finance-choice-1" value="2"  />
+				<label for="finance-choice-1"><strong>F++</strong></label>
+				: {% trans "My spouse would support me if I would give binding promises to my friend, and share money resources for our important projects, and support each other on the times of need, and compute for optimal financial investments." %}
+            </p>
+            <p>
+				<input type="radio" name="finance-choice-1" id="finance-choice-2" value="1"  />
+				<label for="finance-choice-2"><strong>F+</strong></label>
+				: {% trans "My spouse would understand me if I share financial resources with the friend for important projects, and support each other on the times of need." %}
+            </p>
+
+            <p>
+				<input type="radio" name="finance-choice-1" id="finance-choice-3" value="0" />
+				<label for="finance-choice-3"><strong>F</strong></label>
+				: {% trans "My spouse would react neutrally, if I shared any financial resources." %}
+            </p>
+
+            <p>
+				<input type="radio" name="finance-choice-1" id="finance-choice-4" value="-1"  />
+				<label for="finance-choice-4"><strong>F-</strong></label>
+				: {% trans "My spouse would not understand me if I shared financial resources with my friend for important project." %}
+            </p>
+
+            <p>
+				<input type="radio" name="finance-choice-1" id="finance-choice-5" value="-2"  />
+				<label for="finance-choice-5"><strong>F--</strong></label>
+				: {% trans "My spouse would get angry if I shared financial resources with my friend for important project." %}
+            </p>
+    </fieldset>
+</div>
+
+
+<h3><a id="3_APPEARANCE___55"></a>3. APPEARANCE - 【{% trans "外观" %}】</h3>
+
+<p>{% trans "Ideal=Ability to 1) Appear cute to each other, 2) Share cute emoticons with each other." %}</p>
+
+
+<div data-role="fieldcontain">
+    <fieldset data-role="controlgroup" id="appearance">
+		<legend>{% trans "Choose statement" %}</legend>
+            <p>
+				<input type="radio" name="appearance-choice-1" id="appearance-choice-1" value="2"  />
+				<label for="appearance-choice-1"><strong>A++</strong></label>
+				: {% trans "My spouse would encourage it like a brother or sister to have cute anime-like friends. :)" %}
+            </p>
+            <p>
+				<input type="radio" name="appearance-choice-1" id="appearance-choice-2" value="1"  />
+				<label for="appearance-choice-2"><strong>A+</strong></label>
+				: {% trans "My spouse would not envy if my friend is cute." %}
+            </p>
+
+            <p>
+				<input type="radio" name="appearance-choice-1" id="appearance-choice-3" value="0"  />
+				<label for="appearance-choice-3"><strong>A</strong></label>
+				: {% trans "My spouse doesn’t care about looks." %}
+            </p>
+
+            <p>
+				<input type="radio" name="appearance-choice-1" id="appearance-choice-4" value="-1"  />
+				<label for="appearance-choice-4"><strong>A-</strong></label>
+				: {% trans "My spouse would envy if my friends are too cute." %}
+            </p>
+
+            <p>
+				<input type="radio" name="appearance-choice-1" id="appearance-choice-5" value="-2"  />
+				<label for="appearance-choice-5"><strong>A--</strong></label>
+				: {% trans "My spouse would feel inadequate if I had very cute friends." %}
+            </p>
+    </fieldset>
+</div>
+
+
+<h3><a id="4_TOUCH___69"></a>4. TOUCH - 【{% trans "触觉" %}】</h3>
+
+<p>{% trans "Ideal=Ability to 1) Put one's head on another's lap when tired, 2) Lie next to each other while watching stars or movies, and touch each other's hands, 3) Hug each other for longer, like relatives who hadn't seen each other for a long time, 4) Sleep next each other when tired." %}</p>
+
+<div data-role="fieldcontain">
+    <fieldset data-role="controlgroup" id="touch">
+		<legend>{% trans "Choose statement" %}</legend>
+            <p>
+				<input type="radio" name="touch-choice-1" id="touch-choice-1" value="2"  />
+				<label for="touch-choice-1"><strong>T++</strong></label>
+				: {% trans "My spouse would let me be with good friend in one bed, if we don’t make love, but like kids enjoy intellectual activities instead, such as writing books, programming, doing math, such as computing how to fly to other galaxies, or any of that sort of thing, and do a head massage for each other, when tired or sleepy." %}
+            </p>
+            <p>
+				<input type="radio" name="touch-choice-1" id="touch-choice-2" value="1" />
+				<label for="touch-choice-2"><strong>T+</strong></label>
+				: {% trans "My spouse would let me to engage with each other, like kids in kindergarten do, – lie down next to each other on the floor." %}
+            </p>
+
+            <p>
+				<input type="radio" name="touch-choice-1" id="touch-choice-3" value="0"  />
+				<label for="touch-choice-3"><strong>T</strong></label>
+				: {% trans "My spouse would agree me to put my head on my friend’s lap in a train or bus." %}
+            </p>
+
+            <p>
+				<input type="radio" name="touch-choice-1" id="touch-choice-4" value="-1"  />
+				<label for="touch-choice-4"><strong>T-</strong></label>
+				: {% trans "My spouse would only let me hug friend shortly." %}
+            </p>
+
+            <p>
+				<input type="radio" name="touch-choice-1" id="touch-choice-5" value="-2"  />
+				<label for="touch-choice-5"><strong>T--</strong></label>
+				: {% trans "My spouse would generally disapprove any physical contact." %}
+            </p>
+    </fieldset>
+</div>
+
+
+<h3><a id="5_BEHAVIOR___83"></a>5. BEHAVIOR - 【{% trans "公开行为" %}】</h3>
+
+<p>{% trans "Ideal=Ability to 1) Go for walks together, 2) Go to social activities together, such as sports and the like." %}</p>
+
+<div data-role="fieldcontain">
+    <fieldset data-role="controlgroup" id="behavior">
+		<legend>{% trans "Choose statement" %}</legend>
+            <p>
+				<input type="radio" name="behavior-choice-1" id="behavior-choice-1" value="2"  />
+				<label for="behavior-choice-1"><strong>B++</strong></label>
+				: {% trans "My spouse would let me walk hand-in-hand, and hug with my friend together in public." %}
+            </p>
+            <p>
+				<input type="radio" name="behavior-choice-1" id="behavior-choice-2" value="1"  />
+				<label for="behavior-choice-2"><strong>B+</strong></label>
+				: {% trans "My spouse would let me walk with my friend frequently in public if not hand-in-hand." %}
+            </p>
+
+            <p>
+				<input type="radio" name="behavior-choice-1" id="behavior-choice-3" value="0" />
+				<label for="behavior-choice-3"><strong>B</strong></label>
+				: {% trans "My spouse would rather let us walk, only rarely, and not hand-in-hand." %}
+            </p>
+
+            <p>
+				<input type="radio" name="behavior-choice-1" id="behavior-choice-4" value="-1"  />
+				<label for="behavior-choice-4"><strong>B-</strong></label>
+				: {% trans "My spouse would need a pre-text, such as sports-mate, or club member, to let me sometimes walk together with my close friend, not hand-in-hand." %}
+            </p>
+
+            <p>
+				<input type="radio" name="behavior-choice-1" id="behavior-choice-5" value="-2"  />
+				<label for="behavior-choice-5"><strong>B--</strong></label>
+				: {% trans "My spouse would only let me walk together if there is a third friend." %}
+            </p>
+    </fieldset>
+</div>
+
+
+<h3><a id="6_LANGUAGE___97"></a>6. LANGUAGE - 【{% trans "语言" %}】</h3>
+
+<p>{% trans "Ideal=Ability to 1) Use cute words and expressions to encourage each other, 2) Use diminutives and talk playfully with each others, 3) Read books aloud to each other." %}</p>
+
+<div data-role="fieldcontain">
+    <fieldset data-role="controlgroup" id="language">
+		<legend>{% trans "Choose statement" %}</legend>
+            <p>
+				<input type="radio" name="language-choice-1" id="language-choice-1" value="2"  />
+				<label for="language-choice-1"><strong>L++</strong></label>
+				: {% trans "My spouse would not mind if we discuss our insecurities, intimate thoughts and strategies, and sometimes use diminutive language to refer to each other." %}
+            </p>
+            <p>
+				<input type="radio" name="language-choice-1" id="language-choice-2" value="1"  />
+				<label for="language-choice-2"><strong>L+</strong></label>
+				: {% trans "My spouse would understand if we speak using diminutive language with each other in private." %}
+            </p>
+
+            <p>
+				<input type="radio" name="language-choice-1" id="language-choice-3" value="0"  />
+				<label for="language-choice-3"><strong>L</strong></label>
+				: {% trans "My spouse would understand if we speak diminutive language over internet conversations at home." %}
+            </p>
+
+            <p>
+				<input type="radio" name="language-choice-1" id="language-choice-4" value="-1" />
+				<label for="language-choice-4"><strong>L-</strong></label>
+				: {% trans "My spouse would find it awkward if we speak diminutive language silently over internet at home." %}
+            </p>
+
+            <p>
+				<input type="radio" name="language-choice-1" id="language-choice-5" value="-2"  />
+				<label for="language-choice-5"><strong>L--</strong></label>
+				: {% trans "My spouse would feel bad if we speak diminutive language over internet at home." %}
+            </p>
+    </fieldset>
+</div>
+
+
+<h3><a id="7_STIMULATION___111"></a>7. STIMULATION - 【{% trans "刺激" %}】</h3>
+
+<p>{% trans "Ideal=Ability to 1) Share sweet and exciting ideas, 2) Share enticing mysteries to excite each other's minds." %}</p>
+
+<div data-role="fieldcontain">
+    <fieldset data-role="controlgroup" id="stimulation">
+		<legend>{% trans "Choose statement" %}</legend>
+            <p>
+				<input type="radio" name="stimulation-choice-1" id="stimulation-choice-1" value="2"  />
+				<label for="stimulation-choice-1"><strong>S++</strong></label>
+				: {% trans "My spouse would understand if s/he heard that we make each other feel very special to each other by sharing our minds." %}
+            </p>
+            <p>
+				<input type="radio" name="stimulation-choice-1" id="stimulation-choice-2" value="1" />
+				<label for="stimulation-choice-2"><strong>S+</strong></label>
+				: {% trans "My spouse would understand if we made each other feel excited, surprised, or overwhelmed by each other’s minds." %}
+            </p>
+
+            <p>
+				<input type="radio" name="stimulation-choice-1" id="stimulation-choice-3" value="0"  />
+				<label for="stimulation-choice-3"><strong>S</strong></label>
+				: {% trans "My spouse would allow, but find it hard to appreciate our exchange of minds." %}
+            </p>
+
+            <p>
+				<input type="radio" name="stimulation-choice-1" id="stimulation-choice-4" value="-1"  />
+				<label for="stimulation-choice-4"><strong>S-</strong></label>
+				: {% trans "My spouse would hardly understand our exchange of minds." %}
+            </p>
+
+            <p>
+				<input type="radio" name="stimulation-choice-1" id="stimulation-choice-5" value="-2" />
+				<label for="stimulation-choice-5"><strong>S--</strong></label>
+				: {% trans "My spouse would envy if we exchanged our minds." %}
+            </p>
+    </fieldset>
+</div>
+
+
+<h3><a id="8_GENDER___11"></a>8. GENDER - 【{% trans "性别" %}】</h3>
+
+<div align="center" data-role="fieldcontain">
+    <fieldset data-role="controlgroup" id="gender">
+		<legend>{% trans "Your gender" %}</legend>
+				<input type="radio" name="gender-choice-1" id="gender-choice-1" value="X"  />
+				<label for="stimulation-choice-1"><strong>{% trans "female" %}</strong></label>
+
+				<input type="radio" name="gender-choice-1" id="gender-choice-1" value="Y"  />
+				<label for="stimulation-choice-1"><strong>{% trans "male" %}</strong></label>
+    </fieldset>
+</div>
+
+<h3>{% trans "YOUR CODE" %}</h3>
+
+<div id="result" style="display: none; background: #28b62c;color: #ffffff;height: 1.4em;padding: .5em;position: fixed;bottom: 5px; width: 17em; right: 0; left: 0; margin-right: auto; margin-left: auto; border: 1px solid;border-radius: 4px; font-size: 20px">
+</div>
+
+<script>
+var map = function (val) {
+    if(val==-2) {
+        return('--');
+    }
+    else if(val==-1) {
+        return('-');
+    } 
+    else if(val==0) {
+        return('');
+    } 
+    else if(val==1) {
+        return('+');
+    } 
+    else if(val==2) {
+        return('++');
+    } 
+}
+
+var repeated = function (letter, val) {
+    if(val==0) {
+        return letter.toLowerCase();
+    }
+    else if (val>0) {
+        return letter.toUpperCase().repeat(val+1);
+    }
+    else if (val<0) {
+        return letter.toLowerCase().repeat(0-val+1);
+    }
+}
+
+var update = function() {
+
+	var minds = $("#minds :radio:checked").val();
+	var finance = $("#finance :radio:checked").val();
+	var appearance = $("#appearance :radio:checked").val();
+	var touch = $("#touch :radio:checked").val();
+	var behavior = $("#behavior :radio:checked").val();
+	var language = $("#language :radio:checked").val();
+	var stimulation = $("#stimulation :radio:checked").val();
+	var gender = $("#gender :radio:checked").val();
+
+	var text = '';
+
+	if (minds != null) { text += 'M'+map(minds); }
+	if (finance != null) { text += 'F'+map(finance); }
+	if (appearance != null) { text += 'A'+map(appearance); }
+	if (touch != null) { text += 'T'+map(touch); }
+	if (behavior != null) { text += 'B'+map(behavior); }
+	if (language != null) { text += 'L'+map(language); }
+	if (stimulation != null) { text += 'S'+map(stimulation); }
+	if (gender != null) { text += gender; }
+
+	var urlcode = '';
+
+	if (minds != null) { urlcode += repeated('M', Number(minds)); }
+	if (finance != null) { urlcode += repeated('F', Number(finance)); }
+	if (appearance != null) { urlcode += repeated('A', Number(appearance)); }
+	if (touch != null) { urlcode += repeated('T', Number(touch)); }
+	if (behavior != null) { urlcode += repeated('B', Number(behavior)); }
+	if (language != null) { urlcode += repeated('L', Number(language)); }
+	if (stimulation != null) { urlcode += repeated('S', Number(stimulation)); }
+	if (gender != null) { urlcode += gender; }
+
+	var html = '<a style="color:yellow; background: #28b62c;" href="?s='+urlcode+'">'+text+'</a>';
+
+	$("#result").html(html);
+	$("#result").show();
+	$("#link").html(html);
+}
+
+$("input:radio").bind( "change", function(event, ui) {
+    update();
+});
+
+</script>
+
+
+<blockquote>
+	<span id="link"></span> （←{% trans "open the link to see the result!" %}）</p>
+</blockquote>
+
+
+<h3><a id="EXAMPLE___125"></a>EXAMPLE - 【代码例子】</h3>
+
+<p>{% trans "For example, the following code:" %}</p>
+
+<blockquote>
+<p>M++F++A+TB--L-S+</p>
+</blockquote>
+
+<blockquote>
+{% blocktrans %}
+<p>Means that your spouse understands you if you share
+minds (M++), but don't get over excited (S+),
+and supports you to have high level of financial
+trust with friends (F++), understands having cute
+friends (A+), would understand touching each other
+to the degree of putting one's head on another's
+lap when tired (T), but would like you to walk
+with another friend when in public (B--), and
+avoid using diminutives at home (L-).</p>
+{% endblocktrans %}
+</blockquote>
+
+<p>{% trans "Don't know how to answer? Ask your spouse!~"%}</p>
+
+<center><p>{% trans "Can we be close friends? Sure! My 52ml code is good! :)" %}</p></center>
+
+{% else %} <!-- // ANSWERS -->
+
+<script type="text/javascript" src="http://jeromeetienne.github.io/jquery-qrcode/src/jquery.qrcode.js"></script>
+<script type="text/javascript" src="http://jeromeetienne.github.io/jquery-qrcode/src/qrcode.js"></script>
+
+
+<! -- Make background color based on gender -->
+{% if gender == 'female' %}
+<script>document.body.style.backgroundColor = "pink";</script>
+{% elif gender == 'male' %}
+<script>document.body.style.backgroundColor = "cyan";</script>
+{% elif gender = 'bisexual' %}
+<script>document.body.style.backgroundColor = "grey";</script>
+{% endif %}
+
+<center><p>{% trans "My 52ml Geek Code is:" %} <span style="background: #28b62c; color: yellow; height: 1.4em; padding: .5em; border: 1px solid;border-radius: 4px;">{{minds}}{{finance}}{{appearance}}{{touch}}{{behavior}}{{language}}{{stimulation}}{% if gender == 'female'%}X{% elif gender == 'male'%}Y{% elif gender == 'bisexual'%}XY{% endif %}</span>.</p></center>
+
+<center><p>{% trans "It means my" %} <strong>{% if gender == 'female' %}{% trans "husband" %}{% elif gender == 'male' %}{% trans "wife" %}{% else %}{% trans "spouse" %}{% endif %}</strong> {% trans "would understand if I with my closest friends:" %}</p></center>
+
+<div align="center" id="qrcode"></div>
+
+<script>
+jQuery('#qrcode').qrcode("http://{{ request.META.HTTP_HOST }}{{ request.get_full_path }}");
+</script>
+
+{% if minds %}
+
+	<h3><a id="1_MINDS___21"></a>MINDS - 【{% trans "脑海" %}】</h3>
+
+	{% if minds == 'M++' %}
+	<strong>M++</strong>: {% trans "My spouse would not mind if we define what we want together with my friend(s), and calculate for realizing it, – from writing shared diaries to sharing inbox, from sharing all passwords to listening to the same music, watch movies together, to writing scripts to analyze most if not all of each other’s data by intelligent algorithms, and even exchange our social identity." %}
+	{% elif minds == 'M+' %}
+	<strong>M+</strong>: {% trans "My spouse would not mind if I engage in intellectual activities with my good friend(s), such as writing books, programming, doing math, writing diaries, sharing most passwords, taking care of all of each others’ servers, writing code to analyze most of each other’s data, computing how to live forever, and fly to other galaxies." %}
+	{% elif minds == 'M' %}
+	<strong>M</strong>: {% trans "My spouse would not mind if we take care of common servers, listen to the same music, teach each other skills, voice-read books, write books, as well as calculate and code." %}
+	{% elif minds == 'M-' %}
+	<strong>M-</strong>: {% trans "My spouse would not mind if I calculate, code, write books, take online courses with my friend, without sharing much passwords and sensitive data." %}
+	{% elif minds == 'M--' %}
+	<strong>M--</strong>: {% trans "My spouse would not mind if I chat often, write books together, take online courses, and learn together." %}
+	{% endif %}
+
+{% endif %}
+
+{% if finance %}
+
+	<h3><a id="2_FINANCE___41"></a>FINANCE - 【{% trans "金融" %}】</h3>
+
+	{% if finance == 'F++' %}
+	<strong>F++</strong>: {% trans "My spouse would support me if I would give binding promises to my friend, and share money resources for our important projects, and support each other on the times of need, and compute for optimal financial investments." %}
+	{% elif finance == 'F+' %}
+	<strong>F+</strong>: {% trans "My spouse would understand me if I share financial resources with the friend for important projects, and support each other on the times of need." %}
+	{% elif finance == 'F' %}
+	<strong>F</strong>: {% trans "My spouse would react neutrally, if I shared any financial resources." %}
+	{% elif finance == 'F-' %}
+	<strong>F-</strong>: {% trans "My spouse would not understand me if I shared financial resources with my friend for important project." %}
+	{% elif finance == 'F--' %}
+	<strong>F--</strong>: {% trans "My spouse would get angry if I shared financial resources with my friend for important project." %}
+	{% endif %}
+
+{% endif %}
+
+{% if appearance %}
+
+	<h3><a id="3_APPEARANCE___55"></a>APPEARANCE - 【{% trans "外观" %}】</h3>
+
+	{% if appearance == 'A++' %}
+	<strong>A++</strong>: {% trans "My spouse would encourage it like a brother or sister to have cute anime-like friends. :)" %}
+	{% elif appearance == 'A+' %}
+	<strong>A+</strong>: {% trans "My spouse would not envy if my friend is cute." %}
+	{% elif appearance == 'A' %}
+	<strong>A</strong>: {% trans "My spouse doesn’t care about looks." %}
+	{% elif appearance == 'A-' %}
+	<strong>A-</strong>: {% trans "My spouse would envy if my friends are too cute." %}
+	{% elif appearance == 'A--' %}
+	<strong>A--</strong>: {% trans "My spouse would feel inadequate if I had very cute friends." %}
+	{% endif %}
+
+{% endif %}
+
+{% if touch %}
+
+	<h3><a id="4_TOUCH___69"></a>TOUCH - 【{% trans "触觉" %}】</h3>
+
+	{% if touch == 'T++' %}
+	<strong>T++</strong>: {% trans "My spouse would let me be with good friend in one bed, if we don’t make love, but like kids enjoy intellectual activities instead, such as writing books, programming, doing math, such as computing how to fly to other galaxies, or any of that sort of thing, and do a head massage for each other, when tired or sleepy." %}
+	{% elif touch == 'T+' %}
+	<strong>T+</strong>: {% trans "My spouse would let me to engage with each other, like kids in kindergarten do, – lie down next to each other on the floor." %}
+	{% elif touch == 'T' %}
+	<strong>T</strong>: {% trans "My spouse would agree me to put my head on my friend’s lap in a train or bus." %}
+	{% elif touch == 'T-' %}
+	<strong>T-</strong>: {% trans "My spouse would only let me hug friend shortly." %}
+	{% elif touch == 'T--' %}
+	<strong>T--</strong>: {% trans "My spouse would generally disapprove any physical contact." %}
+	{% endif %}
+
+{% endif %}
+
+{% if behavior %}
+
+	<h3><a id="5_BEHAVIOR___83"></a>BEHAVIOR - 【{% trans "公开行为" %}】</h3>
+
+	{% if behavior == 'B++' %}
+	<strong>B++</strong>: {% trans "My spouse would let me walk hand-in-hand, and hug with my friend together in public." %}
+	{% elif behavior == 'B+' %}
+	<strong>B+</strong>: {% trans "My spouse would let me walk with my friend frequently in public if not hand-in-hand." %}
+	{% elif behavior == 'B' %}
+	<strong>B</strong>: {% trans "My spouse would rather let us walk, only rarely, and not hand-in-hand." %}
+	{% elif behavior == 'B-' %}
+	<strong>B-</strong>: {% trans "My spouse would need a pre-text, such as sports-mate, or club member, to let me sometimes walk together with my close friend, not hand-in-hand." %}
+	{% elif behavior == 'B--' %}
+	<strong>B--</strong>: {% trans "My spouse would only let me walk together if there is a third friend." %}
+	{% endif %}
+
+{% endif %}
+
+{% if language %}
+
+	<h3><a id="6_LANGUAGE___97"></a>LANGUAGE - 【{% trans "语言" %}】</h3>
+
+	{% if language == 'L++' %}
+	<strong>L++</strong>: {% trans "My spouse would not mind if we discuss our insecurities, intimate thoughts and strategies, and sometimes use diminutive language to refer to each other." %}
+	{% elif language == 'L+' %}
+	<strong>L+</strong>: {% trans "My spouse would understand if we speak using diminutive language with each other in private." %}
+	{% elif language == 'L' %}
+	<strong>L</strong>: {% trans "My spouse would understand if we speak diminutive language over internet conversations at home." %}
+	{% elif language == 'L-' %}
+	<strong>L-</strong>: {% trans "My spouse would find it awkward if we speak diminutive language silently over internet at home." %}
+	{% elif language == 'L--' %}
+	<strong>L--</strong>: {% trans "My spouse would feel bad if we speak diminutive language over internet at home." %}
+	{% endif %}
+
+{% endif %}
+
+{% if stimulation %}
+
+	<h3><a id="7_STIMULATION___111"></a>STIMULATION - 【{% trans "刺激" %}】</h3>
+
+	{% if stimulation == 'S++' %}
+	<strong>S++</strong>: {% trans "My spouse would understand if s/he heard that we make each other feel very special to each other by sharing our minds." %}
+	{% elif stimulation == 'S+' %}
+	<strong>S+</strong>: {% trans "My spouse would understand if we made each other feel excited, surprised, or overwhelmed by each other’s minds." %}
+	{% elif stimulation == 'S' %}
+	<strong>S</strong>: {% trans "My spouse would allow, but find it hard to appreciate our exchange of minds." %}
+	{% elif stimulation == 'S-' %}
+	<strong>S-</strong>: {% trans "My spouse would hardly understand our exchange of minds." %}
+	{% elif stimulation == 'S--' %}
+	<strong>S--</strong>: {% trans "My spouse would envy if we exchanged our minds." %}
+	{% endif %}
+
+{% endif %}
+
+<script>
+function goBack() {
+    window.history.go(-1);
+}
+</script>
+
+<p>
+<div align="center">
+	<button onclick="goBack()">{% trans "Return" %}</button>
+</div>
+</p>
+
+{% endif %} <!-- // request.GET.s -->
 
 {% endblock content %}

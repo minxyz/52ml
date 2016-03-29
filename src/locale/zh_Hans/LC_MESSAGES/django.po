@@ -1,0 +1,559 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-29 21:03+0000\n"
+"PO-Revision-Date: 2016-03-30 00:05+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: src/apps/core/templates/index.html:9
+msgid "ml"
+msgstr "毫升"
+
+#: src/apps/core/templates/index.html:10
+msgid ""
+"A tool for married people describe their spouse's expectations for the "
+"degrees of intimacy in making close friends."
+msgstr ""
+"一种工具为了已婚的人可以快速描写自己的婚姻伴侣可接受的跟朋友们的亲密关系深度"
+"的范围"
+
+#: src/apps/core/templates/index.html:12
+msgid ""
+"\n"
+"<strong>\n"
+"\t<p>It’s hard to make the world into one family…</p>\n"
+"\t<p>…but <em>we choose to fly to the Moon and do other great things,</em>\n"
+"\t<em>not because they’re easy, but because they’re hard.</em></p>\n"
+"</strong>\n"
+msgstr ""
+"\n"
+"<strong>\n"
+"\t<p>It’s hard to make the world into one family…</p>\n"
+"\t<p>…but <em>we choose to fly to the Moon and do other great things,</em>\n"
+"\t<em>not because they’re easy, but because they’re hard.</em></p>\n"
+"</strong>\n"
+
+#: src/apps/core/templates/index.html:20
+msgid ""
+"\n"
+"<p>Our ideal is a world where all people enjoy close relationships like "
+"members of one family. Unfortunately, today, there are many married people "
+"who not necessarily can honestly enjoy sufficiently close relationships with "
+"people outside of their family, especially with people of opposite gender, "
+"as those relationships are often misunderstood and mistreated by others. "
+"People often resort to divorces because of that. We think that in many cases "
+"divorces are not necessary, and married couples tend to understand that, "
+"beginning to be more like brothers and sisters, and giving each others the "
+"freedom to make close friends in our lives. However, unlike our spouses, the "
+"society is not as tolerant, and is quick to misconstrue close friendships as "
+"infidelity to one's spouse. In modern society, thus, simply having close "
+"friends becomes risky. To reduce the risk, we need more understanding, not "
+"just from our lovers, but from the society at large. Therefore, we created "
+"this site to enable people to clearly specify and share the expectations of "
+"their spouses to their friends whom they want to have closer relationships "
+"with. We think the more we have close and intimate relationships in the "
+"soiety, and excite each others' minds, the more people will share resources "
+"and help, and the more projects we will realize, cures for diseases found, "
+"etc., which is a win for everyone.</p>\n"
+msgstr ""
+"\n"
+"<p>我们的理想是把全世界做一个家庭一样好关系的。我们认识到着世界上的很多结婚夫"
+"妇不一定能满足互相的所有的需求。可是，我们觉得很多情况下不一定要离婚（『没离"
+"就魅力』）。可是，虽然夫妇互相理解，而且互相给许可找亲密的朋友们陪着在生活"
+"中，社会不一定理解这样的行为。有时候，社会很快曲解关系，很快以为有亲密好友意"
+"味着对丈夫还是妻子不忠。不忠不等于亲密朋友。我们创造了这个网站为了大家都可以"
+"明确地分享关于自己的妻子或丈夫的期望值对对方的亲密好友的关系，创造个对做亲密"
+"朋友有利条件在社会中。越多亲密关系，越多人会分享资源互相帮助，越多人会消除疾"
+"病，实现项目和梦想。</p>\n"
+
+#: src/apps/core/templates/index.html:24
+msgid ""
+"\n"
+"<strong>\n"
+"\t<p>We can create a\n"
+"\twonderful life for each others,\n"
+"\tworth living!</p>\n"
+"</strong>\n"
+msgstr ""
+
+#: src/apps/core/templates/index.html:33
+msgid ""
+"\n"
+"<p>In order to do it, we created a kind of <a href=\"https://en.wikipedia."
+"org/wiki/Geek_Code\">Geek Code</a> at <b>52ml.xyz</b> to enable people to "
+"clearly describe and share their spouse's expectations regarding the "
+"intimacy when making friends. Try it out!</p>\n"
+msgstr ""
+"\n"
+"<p>为了它，我们介绍了一种 <a href=\"https://en.wikipedia.org/wiki/Geek_Code"
+"\">Geek Code</a> (<a href=\"/geekcode.html\">中文</a>)，叫《爱魅力》，为了可"
+"以清楚地描写而且跟好友更明确地分享关于自己的配偶期望值。快来试一试吧！</p>\n"
+
+#: src/apps/core/templates/index.html:37
+msgid "Create your 52ml Geek Code!"
+msgstr "生成自己的爱魅力代码吧！"
+
+#: src/apps/core/templates/index.html:38
+msgid ""
+"To generate your 52ml code, check statements you like, that do not exceed "
+"your spouse's expectations."
+msgstr "为了生成爱魅力代码，看看哪些命题表达你的配偶的期望值："
+
+#: src/apps/core/templates/index.html:41
+msgid ""
+"\n"
+"<strong>\n"
+"<p>People’s minds are among the most complex\n"
+"objects in the universe. We might lose a big part of\n"
+"what life has to offer, if we do not travel to explore them.\n"
+"Let’s not limit ourselves to just one person to deeply\n"
+"explore and become intimate with.</p>\n"
+"</strong>\n"
+msgstr ""
+
+#: src/apps/core/templates/index.html:52
+msgid ""
+"Ideal=Ability to [in ascending order] 1) Play games together, 2) Compute, 3) "
+"Code, 4) Read books, 5) Watch movies, 6) Take classes, 7) Write books, 8) "
+"Listen to music, 9) Take care of servers, 10) Write diaries, 11) Share "
+"passwords, 12) Write scripts to analyze each other's data, 13) Share inbox, "
+"14) Share social identity."
+msgstr ""
+"理想=可以【升序】 1) 一起玩儿游戏，2）一起计算，3）一起编程代码，4）一起看"
+"书，5）一起看电影，6）一起上课，7）一起写书，8）一起听音乐，9）一起照顾服务"
+"器，10）一起写日记，11）一起分享密码，12）一起写脚本分析互相数据，13）分享收"
+"件箱，14）分享社会认同。"
+
+#: src/apps/core/templates/index.html:56 src/apps/core/templates/index.html:96
+#: src/apps/core/templates/index.html:136
+#: src/apps/core/templates/index.html:175
+#: src/apps/core/templates/index.html:214
+#: src/apps/core/templates/index.html:253
+#: src/apps/core/templates/index.html:292
+msgid "Choose statement"
+msgstr "选择命题"
+
+#: src/apps/core/templates/index.html:60 src/apps/core/templates/index.html:482
+msgid ""
+"My spouse would not mind if we define what we want together with my "
+"friend(s), and calculate for realizing it, – from writing shared diaries to "
+"sharing inbox, from sharing all passwords to listening to the same music, "
+"watch movies together, to writing scripts to analyze most if not all of each "
+"other’s data by intelligent algorithms, and even exchange our social "
+"identity."
+msgstr ""
+
+#: src/apps/core/templates/index.html:65 src/apps/core/templates/index.html:484
+msgid ""
+"My spouse would not mind if I engage in intellectual activities with my good "
+"friend(s), such as writing books, programming, doing math, writing diaries, "
+"sharing most passwords, taking care of all of each others’ servers, writing "
+"code to analyze most of each other’s data, computing how to live forever, "
+"and fly to other galaxies."
+msgstr ""
+
+#: src/apps/core/templates/index.html:71 src/apps/core/templates/index.html:486
+msgid ""
+"My spouse would not mind if we take care of common servers, listen to the "
+"same music, teach each other skills, voice-read books, write books, as well "
+"as calculate and code."
+msgstr ""
+
+#: src/apps/core/templates/index.html:77 src/apps/core/templates/index.html:488
+msgid ""
+"My spouse would not mind if I calculate, code, write books, take online "
+"courses with my friend, without sharing much passwords and sensitive data."
+msgstr ""
+
+#: src/apps/core/templates/index.html:83 src/apps/core/templates/index.html:490
+msgid ""
+"My spouse would not mind if I chat often, write books together, take online "
+"courses, and learn together."
+msgstr ""
+
+#: src/apps/core/templates/index.html:89 src/apps/core/templates/index.html:497
+msgid "金融"
+msgstr ""
+
+#: src/apps/core/templates/index.html:91
+msgid ""
+"Ideal=Ability to 1) Share money when in need, 2) Share financial data, 3) "
+"Together analyze investment choices, 4) Together compute ROI of investments, "
+"5) Together define goals, 6) Help each other at work."
+msgstr ""
+"理想=可以 1）有需要的时候分享钱，2）分享互相金融数据，3）一起分析和估计投资选"
+"择，4）一起计算投资回报，5）一起下定义目标，6）互相帮助在工作。"
+
+#: src/apps/core/templates/index.html:100
+#: src/apps/core/templates/index.html:500
+msgid ""
+"My spouse would support me if I would give binding promises to my friend, "
+"and share money resources for our important projects, and support each other "
+"on the times of need, and compute for optimal financial investments."
+msgstr ""
+
+#: src/apps/core/templates/index.html:105
+#: src/apps/core/templates/index.html:502
+msgid ""
+"My spouse would understand me if I share financial resources with the friend "
+"for important projects, and support each other on the times of need."
+msgstr ""
+
+#: src/apps/core/templates/index.html:111
+#: src/apps/core/templates/index.html:504
+msgid "My spouse would react neutrally, if I shared any financial resources."
+msgstr ""
+
+#: src/apps/core/templates/index.html:117
+#: src/apps/core/templates/index.html:506
+msgid ""
+"My spouse would not understand me if I shared financial resources with my "
+"friend for important project."
+msgstr ""
+
+#: src/apps/core/templates/index.html:123
+#: src/apps/core/templates/index.html:508
+msgid ""
+"My spouse would get angry if I shared financial resources with my friend for "
+"important project."
+msgstr ""
+
+#: src/apps/core/templates/index.html:129
+#: src/apps/core/templates/index.html:515
+msgid "外观"
+msgstr ""
+
+#: src/apps/core/templates/index.html:131
+msgid ""
+"Ideal=Ability to 1) Appear cute to each other, 2) Share cute emoticons with "
+"each other."
+msgstr "理想=可以 1) 看上去互相可爱，2）互相分享可爱的表情。"
+
+#: src/apps/core/templates/index.html:140
+#: src/apps/core/templates/index.html:518
+msgid ""
+"My spouse would encourage it like a brother or sister to have cute anime-"
+"like friends. :)"
+msgstr ""
+
+#: src/apps/core/templates/index.html:145
+#: src/apps/core/templates/index.html:520
+msgid "My spouse would not envy if my friend is cute."
+msgstr ""
+
+#: src/apps/core/templates/index.html:151
+#: src/apps/core/templates/index.html:522
+msgid "My spouse doesn’t care about looks."
+msgstr ""
+
+#: src/apps/core/templates/index.html:157
+#: src/apps/core/templates/index.html:524
+msgid "My spouse would envy if my friends are too cute."
+msgstr ""
+
+#: src/apps/core/templates/index.html:163
+#: src/apps/core/templates/index.html:526
+msgid "My spouse would feel inadequate if I had very cute friends."
+msgstr ""
+
+#: src/apps/core/templates/index.html:169
+#: src/apps/core/templates/index.html:533
+msgid "触觉"
+msgstr ""
+
+#: src/apps/core/templates/index.html:171
+msgid ""
+"Ideal=Ability to 1) Put one's head on another's lap when tired, 2) Lie next "
+"to each other while watching stars or movies, and touch each other's hands, "
+"3) Hug each other for longer, like relatives who hadn't seen each other for "
+"a long time, 4) Sleep next each other when tired."
+msgstr ""
+"理想==可以 1）累了可以把头放在互相的膝部上，2）想看星星还是看电影的时候躺下在"
+"互相身边，触摸对方的手，3）互相见面的时候好像好久不见的亲戚可以长一点互相拥"
+"抱，4）累了可以睡着在互相身边。"
+
+#: src/apps/core/templates/index.html:179
+#: src/apps/core/templates/index.html:536
+msgid ""
+"My spouse would let me be with good friend in one bed, if we don’t make "
+"love, but like kids enjoy intellectual activities instead, such as writing "
+"books, programming, doing math, such as computing how to fly to other "
+"galaxies, or any of that sort of thing, and do a head massage for each "
+"other, when tired or sleepy."
+msgstr ""
+
+#: src/apps/core/templates/index.html:184
+#: src/apps/core/templates/index.html:538
+msgid ""
+"My spouse would let me to engage with each other, like kids in kindergarten "
+"do, – lie down next to each other on the floor."
+msgstr ""
+
+#: src/apps/core/templates/index.html:190
+#: src/apps/core/templates/index.html:540
+msgid ""
+"My spouse would agree me to put my head on my friend’s lap in a train or bus."
+msgstr ""
+
+#: src/apps/core/templates/index.html:196
+#: src/apps/core/templates/index.html:542
+msgid "My spouse would only let me hug friend shortly."
+msgstr ""
+
+#: src/apps/core/templates/index.html:202
+#: src/apps/core/templates/index.html:544
+msgid "My spouse would generally disapprove any physical contact."
+msgstr ""
+
+#: src/apps/core/templates/index.html:208
+#: src/apps/core/templates/index.html:551
+msgid "公开行为"
+msgstr ""
+
+#: src/apps/core/templates/index.html:210
+msgid ""
+"Ideal=Ability to 1) Go for walks together, 2) Go to social activities "
+"together, such as sports and the like."
+msgstr "理想=可以 1）一起去散步，2）一起去做社交活动，比如去做体育和类似活动。"
+
+#: src/apps/core/templates/index.html:218
+#: src/apps/core/templates/index.html:554
+msgid ""
+"My spouse would let me walk hand-in-hand, and hug with my friend together in "
+"public."
+msgstr ""
+
+#: src/apps/core/templates/index.html:223
+#: src/apps/core/templates/index.html:556
+msgid ""
+"My spouse would let me walk with my friend frequently in public if not hand-"
+"in-hand."
+msgstr ""
+
+#: src/apps/core/templates/index.html:229
+#: src/apps/core/templates/index.html:558
+msgid "My spouse would rather let us walk, only rarely, and not hand-in-hand."
+msgstr ""
+
+#: src/apps/core/templates/index.html:235
+#: src/apps/core/templates/index.html:560
+msgid ""
+"My spouse would need a pre-text, such as sports-mate, or club member, to let "
+"me sometimes walk together with my close friend, not hand-in-hand."
+msgstr ""
+
+#: src/apps/core/templates/index.html:241
+#: src/apps/core/templates/index.html:562
+msgid "My spouse would only let me walk together if there is a third friend."
+msgstr ""
+
+#: src/apps/core/templates/index.html:247
+#: src/apps/core/templates/index.html:569
+msgid "语言"
+msgstr ""
+
+#: src/apps/core/templates/index.html:249
+msgid ""
+"Ideal=Ability to 1) Use cute words and expressions to encourage each other, "
+"2) Use diminutives and talk playfully with each others, 3) Read books aloud "
+"to each other."
+msgstr ""
+"理想=可以 1) 用互相鼓励的可爱单词，2）用爱称和跟单词玩儿着说话，3）把书听着互"
+"相声音一起读。"
+
+#: src/apps/core/templates/index.html:257
+#: src/apps/core/templates/index.html:572
+msgid ""
+"My spouse would not mind if we discuss our insecurities, intimate thoughts "
+"and strategies, and sometimes use diminutive language to refer to each other."
+msgstr ""
+
+#: src/apps/core/templates/index.html:262
+#: src/apps/core/templates/index.html:574
+msgid ""
+"My spouse would understand if we speak using diminutive language with each "
+"other in private."
+msgstr ""
+
+#: src/apps/core/templates/index.html:268
+#: src/apps/core/templates/index.html:576
+msgid ""
+"My spouse would understand if we speak diminutive language over internet "
+"conversations at home."
+msgstr ""
+
+#: src/apps/core/templates/index.html:274
+#: src/apps/core/templates/index.html:578
+msgid ""
+"My spouse would find it awkward if we speak diminutive language silently "
+"over internet at home."
+msgstr ""
+
+#: src/apps/core/templates/index.html:280
+#: src/apps/core/templates/index.html:580
+msgid ""
+"My spouse would feel bad if we speak diminutive language over internet at "
+"home."
+msgstr ""
+
+#: src/apps/core/templates/index.html:286
+#: src/apps/core/templates/index.html:587
+msgid "刺激"
+msgstr ""
+
+#: src/apps/core/templates/index.html:288
+msgid ""
+"Ideal=Ability to 1) Share sweet and exciting ideas, 2) Share enticing "
+"mysteries to excite each other's minds."
+msgstr "理想=可以 1）分享甜蜜的想法互相刺激，2）互相给诱人的神秘智力刺激。"
+
+#: src/apps/core/templates/index.html:296
+#: src/apps/core/templates/index.html:590
+msgid ""
+"My spouse would understand if s/he heard that we make each other feel very "
+"special to each other by sharing our minds."
+msgstr ""
+
+#: src/apps/core/templates/index.html:301
+#: src/apps/core/templates/index.html:592
+msgid ""
+"My spouse would understand if we made each other feel excited, surprised, or "
+"overwhelmed by each other’s minds."
+msgstr ""
+
+#: src/apps/core/templates/index.html:307
+#: src/apps/core/templates/index.html:594
+msgid ""
+"My spouse would allow, but find it hard to appreciate our exchange of minds."
+msgstr ""
+
+#: src/apps/core/templates/index.html:313
+#: src/apps/core/templates/index.html:596
+msgid "My spouse would hardly understand our exchange of minds."
+msgstr ""
+
+#: src/apps/core/templates/index.html:319
+#: src/apps/core/templates/index.html:598
+msgid "My spouse would envy if we exchanged our minds."
+msgstr ""
+
+#: src/apps/core/templates/index.html:325
+msgid "性别"
+msgstr ""
+
+#: src/apps/core/templates/index.html:329
+msgid "Your gender"
+msgstr "你的性别"
+
+#: src/apps/core/templates/index.html:331
+msgid "female"
+msgstr "女"
+
+#: src/apps/core/templates/index.html:334
+msgid "male"
+msgstr "男"
+
+#: src/apps/core/templates/index.html:338
+msgid "YOUR CODE"
+msgstr "你的代码"
+
+#: src/apps/core/templates/index.html:422
+msgid "open the link to see the result!"
+msgstr "打开链接看看结果！"
+
+#: src/apps/core/templates/index.html:428
+msgid "For example, the following code:"
+msgstr "比如，下个代码："
+
+#: src/apps/core/templates/index.html:435
+msgid ""
+"\n"
+"<p>Means that your spouse understands you if you share\n"
+"minds (M++), but don't get over excited (S+),\n"
+"and supports you to have high level of financial\n"
+"trust with friends (F++), understands having cute\n"
+"friends (A+), would understand touching each other\n"
+"to the degree of putting one's head on another's\n"
+"lap when tired (T), but would like you to walk\n"
+"with another friend when in public (B--), and\n"
+"avoid using diminutives at home (L-).</p>\n"
+msgstr ""
+"\n"
+"<p>意味着你的配偶允许你分享脑海的所有的事（M++），\n"
+"只不要太兴奋（S+），也支持你跟朋友们做高相信性\n"
+"的金融关系（F++），可以有可爱朋友只不要太美了（A+），\n"
+"而不要太多互相触摸但是可以把你的头放在朋友的膝部上（T），\n"
+"而且如果你跟朋友一起走路，希望有第三个朋友（B--），\n"
+"而且希望避免在家里用爱称（L-）。</p>\n"
+
+#: src/apps/core/templates/index.html:448
+msgid "Don't know how to answer? Ask your spouse!~"
+msgstr "不知道怎么回答？ 去问问你的妻子还是丈夫吧~"
+
+#: src/apps/core/templates/index.html:450
+msgid "Can we be close friends? Sure! My 52ml code is good! :)"
+msgstr "我们可以做亲密朋友们？可以！~《我们爱魅力~代码好！》"
+
+#: src/apps/core/templates/index.html:467
+msgid "My 52ml Geek Code is:"
+msgstr "我的52毫升代码是"
+
+#: src/apps/core/templates/index.html:469
+msgid "It means my"
+msgstr "它意味着"
+
+#: src/apps/core/templates/index.html:469
+msgid "husband"
+msgstr "老公"
+
+#: src/apps/core/templates/index.html:469
+msgid "wife"
+msgstr "老婆"
+
+#: src/apps/core/templates/index.html:469
+msgid "spouse"
+msgstr "婚姻伴侣"
+
+#: src/apps/core/templates/index.html:469
+msgid "would understand if I with my closest friends:"
+msgstr "会理解如果我跟亲密朋友(们)需要："
+
+#: src/apps/core/templates/index.html:479
+msgid "脑海"
+msgstr ""
+
+#: src/apps/core/templates/index.html:611
+msgid "Return"
+msgstr "回来"
+
+#: src/conf/base.py:113
+msgid "English"
+msgstr "English"
+
+#: src/conf/base.py:114
+msgid "Chinese"
+msgstr "中文"
+
+#: src/conf/base.py:115
+msgid "Japanese"
+msgstr "日本語"
+
+#: src/conf/base.py:116
+msgid "Lithuanian"
+msgstr "Lietuvių"
+
+#~ msgid "hello"
+#~ msgstr "你好"
