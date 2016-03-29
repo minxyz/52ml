@@ -7,6 +7,8 @@
 > ..but _we choose to fly to the Moon and do other great things,_
 > _not because they’re easy, but because they’re hard._
 
+Online: [52ml.xyz](http://52ml.xyz).
+
 # Derived from:
 
 ```
