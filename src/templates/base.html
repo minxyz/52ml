@@ -6,15 +6,27 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
     <title></title>
-    {% block css %}{% endblock css %}
+    {% block css %}
+    <style>
+    body {
+       font-size: 18px;
+       margin-left: 10%;
+       margin-right: 10%;
+    }
+    </style
+    {% endblock css %}
     
 </head>
 <body>
 
     {% load i18n %}
     {% get_available_languages as LANGUAGES %}
-	<form action="/i18n/setlang/" method="post" onchange="$(this).closest('form').submit();" style="background: yellow; color: #ffffff; height: 2.6em;padding: .5em;position: fixed;top: 5px;width: 8.5em;right: 5px;border: 1px solid;border-radius: 4px;">{% csrf_token %}
+	<form action="/i18n/setlang/" method="post" onchange="$(this).closest('form').submit();" style="background: yellow; color: black; height: 3.2em;padding: .5em;position: fixed;top: 5px;width: 8.2em;right: 5px;border: 1px solid;border-radius: 4px;">{% csrf_token %}
       <input name="next" type="hidden" value="{{ request.get_full_path }}" />
         {% csrf_token %}
 		<select name="language" style="font-size: 28px;">
