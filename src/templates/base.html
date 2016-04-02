@@ -26,7 +26,7 @@
 
     {% load i18n %}
     {% get_available_languages as LANGUAGES %}
-	<form action="/i18n/setlang/" method="post" onchange="$(this).closest('form').submit();" style="background: yellow; color: black; height: 3.2em;padding: .5em;position: fixed;top: 5px;width: 8.2em;right: 5px;border: 1px solid;border-radius: 4px;">{% csrf_token %}
+	<form action="/i18n/setlang/" method="post" onchange="$(this).closest('form').submit();" style="background: #f0f0f0; color: black; padding: .5em;position: fixed;top: 15px;width: 8.7em;right: 5px;border: 1px solid;border-radius: 4px;">{% csrf_token %}
       <input name="next" type="hidden" value="{{ request.get_full_path }}" />
         {% csrf_token %}
 		<select name="language" style="font-size: 28px;">

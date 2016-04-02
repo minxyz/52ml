@@ -4,8 +4,63 @@
 
 {% block content %}
 <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+<style>
+#minds {  background-color: #E5E4E2; }
+#finance {  background-color: #E5E4E2; }
+#appearance {  background-color: #E5E4E2; }
+#touch {  background-color: #E5E4E2; }
+#behavior {  background-color: #E5E4E2; }
+#language {  background-color: #E5E4E2; }
+#stimulation {  background-color: #E5E4E2; }
 
+fieldset.radiogroup {
+  border-radius: 10px;
+}
+label { 
+  display:inline;
+  font-weight: normal;
+}
+
+div.radio {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+div.radio p:hover, 
+div.radio p.focus  { 
+  background-color: lightgreen; 
+} 
+</style>
+<script>
+// hide/show
+function hideshow(which){
+if (!document.getElementById)
+return
+if (which.style.display=="block")
+which.style.display="none"
+else
+which.style.display="block"
+}
+
+// colors on hover.
+$(document).ready( function() {
+      $('div.radio p').focusin( function() {
+        $(this).addClass('focus');
+      }
+  );
+      $('div.radio p').focusout( function() {
+        $(this).removeClass('focus');
+      }
+  );
+
+}
+);
+</script>
 {% if not request.GET.s %}
+<blockquote>
+<a href="javascript:hideshow(document.getElementById('intro'))">INFO</a>
+</blockquote>
+
+<div id="intro" style="display:none;">
 <h1><a id="52ml__Geek_Code_0"></a>52{%trans "ml" %}.xyz</h1>
 <h2><a id="_2"></a>{% trans "A tool for married people describe their spouse's expectations for the degrees of intimacy in making close friends." %}</h2>
 <blockquote>
@@ -34,10 +89,10 @@
 <p>In order to do it, we created a kind of <a href="https://en.wikipedia.org/wiki/Geek_Code">Geek Code</a> at <b>52ml.xyz</b> to enable people to clearly describe and share their spouse's expectations regarding the intimacy when making friends. Try it out!</p>
 {% endblocktrans %}
 
+</div> <!-- // intro -->
+
 <h2><a id="_17"></a>{% trans "Create your 52ml Geek Code!" %}</h2>
 <p>{% trans "To generate your 52ml code, check statements you like, that do not exceed your spouse's expectations." %}</p>
-
-<style> label { display:inline; font-weight: normal; }</style>
 
 <h3><a id="1_MINDS___21"></a>1. MINDS - 【脑海】</h3>
 <blockquote>
@@ -56,7 +111,8 @@ explore and become intimate with.</p>
 
 <div data-role="fieldcontain">
     <fieldset data-role="controlgroup" class="radiogroup" id="minds">
-		<legend>{% trans "Choose statement" %}</legend>
+		<!--<legend>{% trans "Choose statement" %}</legend>-->
+        <div class="radio">
             <p>
 				<input type="radio" name="minds-choice-1" id="minds-choice-1" value="2"  />
 				<label for="minds-choice-1"><strong>M++</strong>
@@ -90,6 +146,7 @@ explore and become intimate with.</p>
 				: {% trans "My spouse would not mind if I chat often, write books together, take online courses, and learn together." %}
                 </label>
             </p>
+        </div>
     </fieldset>
 </div>
 
@@ -101,7 +158,8 @@ explore and become intimate with.</p>
 
 <div data-role="fieldcontain">
     <fieldset data-role="controlgroup" class="radiogroup" id="finance">
-		<legend>{% trans "Choose statement" %}</legend>
+		<!--<legend>{% trans "Choose statement" %}</legend>-->
+        <div class="radio">
             <p>
 				<input type="radio" name="finance-choice-1" id="finance-choice-1" value="2"  />
 				<label for="finance-choice-1"><strong>F++</strong>
@@ -135,6 +193,7 @@ explore and become intimate with.</p>
 				: {% trans "My spouse would get angry if I shared financial resources with my friend for important project." %}
                 </label>
             </p>
+        </div>
     </fieldset>
 </div>
 
@@ -146,7 +205,8 @@ explore and become intimate with.</p>
 
 <div data-role="fieldcontain">
     <fieldset data-role="controlgroup" class="radiogroup" id="appearance">
-		<legend>{% trans "Choose statement" %}</legend>
+		<!--<legend>{% trans "Choose statement" %}</legend>-->
+        <div class="radio">
             <p>
 				<input type="radio" name="appearance-choice-1" id="appearance-choice-1" value="2"  />
 				<label for="appearance-choice-1"><strong>A++</strong>
@@ -180,6 +240,7 @@ explore and become intimate with.</p>
 				: {% trans "My spouse would feel inadequate if I had very cute friends." %}
                 </label>
             </p>
+        </div>
     </fieldset>
 </div>
 
@@ -190,7 +251,8 @@ explore and become intimate with.</p>
 
 <div data-role="fieldcontain">
     <fieldset data-role="controlgroup" class="radiogroup" id="touch">
-		<legend>{% trans "Choose statement" %}</legend>
+		<!--<legend>{% trans "Choose statement" %}</legend>-->
+        <div class="radio">
             <p>
 				<input type="radio" name="touch-choice-1" id="touch-choice-1" value="2"  />
 				<label for="touch-choice-1"><strong>T++</strong>
@@ -224,6 +286,7 @@ explore and become intimate with.</p>
 				: {% trans "My spouse would generally disapprove any physical contact." %}
                 </label>
             </p>
+        </div>
     </fieldset>
 </div>
 
@@ -234,7 +297,8 @@ explore and become intimate with.</p>
 
 <div data-role="fieldcontain">
     <fieldset data-role="controlgroup" class="radiogroup" id="behavior">
-		<legend>{% trans "Choose statement" %}</legend>
+		<!--<legend>{% trans "Choose statement" %}</legend>-->
+        <div class="radio">
             <p>
 				<input type="radio" name="behavior-choice-1" id="behavior-choice-1" value="2"  />
 				<label for="behavior-choice-1"><strong>B++</strong>
@@ -268,6 +332,7 @@ explore and become intimate with.</p>
 				: {% trans "My spouse would only let me walk together if there is a third friend." %}
                 </label>
             </p>
+        </div>
     </fieldset>
 </div>
 
@@ -278,7 +343,8 @@ explore and become intimate with.</p>
 
 <div data-role="fieldcontain">
     <fieldset data-role="controlgroup" class="radiogroup" id="language">
-		<legend>{% trans "Choose statement" %}</legend>
+		<!--<legend>{% trans "Choose statement" %}</legend>-->
+        <div class="radio">
             <p>
 				<input type="radio" name="language-choice-1" id="language-choice-1" value="2"  />
 				<label for="language-choice-1"><strong>L++</strong>
@@ -312,6 +378,7 @@ explore and become intimate with.</p>
 				: {% trans "My spouse would feel bad if we speak diminutive language over internet at home." %}
                 </label>
             </p>
+        </div>
     </fieldset>
 </div>
 
@@ -322,7 +389,8 @@ explore and become intimate with.</p>
 
 <div data-role="fieldcontain">
     <fieldset data-role="controlgroup" class="radiogroup" id="stimulation">
-		<legend>{% trans "Choose statement" %}</legend>
+		<!--<legend>{% trans "Choose statement" %}</legend>-->
+        <div class="radio">
             <p>
 				<input type="radio" name="stimulation-choice-1" id="stimulation-choice-1" value="2"  />
 				<label for="stimulation-choice-1"><strong>S++</strong>
@@ -356,14 +424,17 @@ explore and become intimate with.</p>
 				: {% trans "My spouse would envy if we exchanged our minds." %}
                 </label>
             </p>
+        </div>
     </fieldset>
 </div>
 
-
+<!--
 <h3><a id="8_GENDER___11"></a>8. GENDER - 【{% trans "性别" %}】</h3>
 
 <div align="center" data-role="fieldcontain">
     <fieldset data-role="controlgroup" class="radiogroup" id="gender">
+		<legend>{% trans "Choose statement" %}</legend>
+        <div class="radio">
 		<legend>{% trans "Your gender" %}</legend>
                 <p>
 				<input type="radio" name="gender-choice-1" id="gender-choice-1" value="Y"  />
@@ -373,12 +444,14 @@ explore and become intimate with.</p>
 				<input type="radio" name="gender-choice-1" id="gender-choice-2" value="X"  />
 				<label for="gender-choice-2"><strong>{% trans "female" %}</strong></label>
                 </p>
+        </div>
     </fieldset>
 </div>
+-->
 
 <h3>{% trans "YOUR CODE" %}</h3>
 
-<div id="result" style="display: none; background: #28b62c;color: #ffffff;height: 2.4em;padding: .5em;position: fixed;bottom: 5px; width: 17em; right: 0; left: 0; margin-right: auto; margin-left: auto; border: 1px solid;border-radius: 4px; font-size: 20px">
+<div id="result" style="display: none; background: #1E90FF;color: #ffffff;height: 2.4em;padding: .5em;position: fixed;bottom: 5px; width: 17em; right: 0; left: 0; margin-right: auto; margin-left: auto; border: 1px solid;border-radius: 4px; font-size: 20px">
 </div>
 
 <script>
@@ -445,7 +518,7 @@ var update = function() {
 	if (stimulation != null) { urlcode += repeated('S', Number(stimulation)); }
 	if (gender != null) { urlcode += gender; }
 
-	var html = '<a style="color:yellow; background: #28b62c;" href="?s='+urlcode+'">'+text+'</a>';
+	var html = '<a style="color:white; background: #1E90FF;" href="?s='+urlcode+'">'+text+'</a>';
 
 	$("#result").html(html);
 	$("#result").show();
@@ -460,7 +533,7 @@ $("input:radio").bind( "change", function(event, ui) {
 
 
 <blockquote>
-	<span id="link"></span> （←{% trans "open the link to see the result!" %}）</p>
+	<button id="link" style="border-color: #1E90FF; background-color: #1E90FF;"></button> （←{% trans "open the link to see the result!" %}）</p>
 </blockquote>
 
 
@@ -489,6 +562,12 @@ avoid using diminutives at home (L-).</p>
 <p>{% trans "Don't know how to answer? Ask your spouse!~"%}</p>
 
 <center><p>{% trans "Can we be close friends? Sure! My 52ml code is good! :)" %}</p></center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 {% else %} <!-- // ANSWERS -->
 
@@ -504,19 +583,13 @@ avoid using diminutives at home (L-).</p>
 {% elif gender = 'bisexual' %}
 <script>document.body.style.backgroundColor = "grey";</script>
 {% endif %}
-
-<center><p>{% trans "My 52ml Geek Code is:" %} <p><span style="background: #28b62c; color: yellow; height: 1.4em; padding: .5em; border: 1px solid;border-radius: 4px;">{{minds}}{{finance}}{{appearance}}{{touch}}{{behavior}}{{language}}{{stimulation}}{% if gender == 'female'%}X{% elif gender == 'male'%}Y{% elif gender == 'bisexual'%}XY{% endif %}</span></p></p></center>
+<div style="height: 15%"></div>
+<center><h1>{% trans "My 52ml Geek Code is:" %}</h1> <p><span style="background: #1E90FF; color: white; height: 1.4em; padding: .5em; border: 1px solid;border-radius: 4px;">{{minds}}{{finance}}{{appearance}}{{touch}}{{behavior}}{{language}}{{stimulation}}{% if gender == 'female'%}X{% elif gender == 'male'%}Y{% elif gender == 'bisexual'%}XY{% endif %}</span></p></center>
 
 <center><p>{% trans "It means my" %} <strong>{% if gender == 'female' %}{% trans "husband" %}{% elif gender == 'male' %}{% trans "wife" %}{% else %}{% trans "spouse" %}{% endif %}</strong> {% trans "would understand if I with my closest friends:" %}</p></center>
 
-<div align="center" id="qrcode"></div>
-
-<script>
-jQuery('#qrcode').qrcode("http://{{ request.META.HTTP_HOST }}{{ request.get_full_path }}");
-</script>
-
 {% if minds %}
-
+    <div id="minds">
 	<h3><a id="1_MINDS___21"></a>MINDS - 【{% trans "脑海" %}】</h3>
 
 	{% if minds == 'M++' %}
@@ -530,11 +603,12 @@ jQuery('#qrcode').qrcode("http://{{ request.META.HTTP_HOST }}{{ request.get_full
 	{% elif minds == 'M--' %}
 	<strong>M--</strong>: {% trans "My spouse would not mind if I chat often, write books together, take online courses, and learn together." %}
 	{% endif %}
+    </div>
 
 {% endif %}
 
 {% if finance %}
-
+    <div id="finance">
 	<h3><a id="2_FINANCE___41"></a>FINANCE - 【{% trans "金融" %}】</h3>
 
 	{% if finance == 'F++' %}
@@ -548,11 +622,12 @@ jQuery('#qrcode').qrcode("http://{{ request.META.HTTP_HOST }}{{ request.get_full
 	{% elif finance == 'F--' %}
 	<strong>F--</strong>: {% trans "My spouse would get angry if I shared financial resources with my friend for important project." %}
 	{% endif %}
+    </div>
 
 {% endif %}
 
 {% if appearance %}
-
+    <div id="appearance">
 	<h3><a id="3_APPEARANCE___55"></a>APPEARANCE - 【{% trans "外观" %}】</h3>
 
 	{% if appearance == 'A++' %}
@@ -566,11 +641,12 @@ jQuery('#qrcode').qrcode("http://{{ request.META.HTTP_HOST }}{{ request.get_full
 	{% elif appearance == 'A--' %}
 	<strong>A--</strong>: {% trans "My spouse would feel inadequate if I had very cute friends." %}
 	{% endif %}
+    </div>
 
 {% endif %}
 
 {% if touch %}
-
+    <div id="touch">
 	<h3><a id="4_TOUCH___69"></a>TOUCH - 【{% trans "触觉" %}】</h3>
 
 	{% if touch == 'T++' %}
@@ -584,11 +660,12 @@ jQuery('#qrcode').qrcode("http://{{ request.META.HTTP_HOST }}{{ request.get_full
 	{% elif touch == 'T--' %}
 	<strong>T--</strong>: {% trans "My spouse would generally disapprove any physical contact." %}
 	{% endif %}
+    </div>
 
 {% endif %}
 
 {% if behavior %}
-
+    <div id="behavior">
 	<h3><a id="5_BEHAVIOR___83"></a>BEHAVIOR - 【{% trans "公开行为" %}】</h3>
 
 	{% if behavior == 'B++' %}
@@ -602,11 +679,12 @@ jQuery('#qrcode').qrcode("http://{{ request.META.HTTP_HOST }}{{ request.get_full
 	{% elif behavior == 'B--' %}
 	<strong>B--</strong>: {% trans "My spouse would only let me walk together if there is a third friend." %}
 	{% endif %}
+    </div>
 
 {% endif %}
 
 {% if language %}
-
+    <div id="language">
 	<h3><a id="6_LANGUAGE___97"></a>LANGUAGE - 【{% trans "语言" %}】</h3>
 
 	{% if language == 'L++' %}
@@ -620,11 +698,12 @@ jQuery('#qrcode').qrcode("http://{{ request.META.HTTP_HOST }}{{ request.get_full
 	{% elif language == 'L--' %}
 	<strong>L--</strong>: {% trans "My spouse would feel bad if we speak diminutive language over internet at home." %}
 	{% endif %}
+    </div>
 
 {% endif %}
 
 {% if stimulation %}
-
+    <div id="stimulation">
 	<h3><a id="7_STIMULATION___111"></a>STIMULATION - 【{% trans "刺激" %}】</h3>
 
 	{% if stimulation == 'S++' %}
@@ -638,8 +717,18 @@ jQuery('#qrcode').qrcode("http://{{ request.META.HTTP_HOST }}{{ request.get_full
 	{% elif stimulation == 'S--' %}
 	<strong>S--</strong>: {% trans "My spouse would envy if we exchanged our minds." %}
 	{% endif %}
+    </div>
 
 {% endif %}
+
+<br>
+<p>
+<div align="center" id="qrcode"></div>
+</p>
+
+<script>
+jQuery('#qrcode').qrcode("http://{{ request.META.HTTP_HOST }}{{ request.get_full_path }}");
+</script>
 
 <script>
 function goBack() {
