@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-03 05:48+0000\n"
+"POT-Creation-Date: 2016-04-03 06:09+0000\n"
 "PO-Revision-Date: 2016-03-29 17:12+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -509,7 +509,7 @@ msgid "spouse"
 msgstr ""
 
 #: src/apps/core/templates/index.html:588
-msgid "with respect to my closest friends, would:"
+msgid "with respect to my closest friends would:"
 msgstr ""
 
 #: src/apps/core/templates/index.html:740
