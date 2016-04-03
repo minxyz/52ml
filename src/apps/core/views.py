@@ -47,3 +47,13 @@ class IndexView(TemplateView):
 
         context.update(kwargs)
         return context
+
+
+class HowtoView(TemplateView):
+    template_name = 'howto.html'
+
+
+class StoryView(TemplateView):
+    template_name = 'story.html'
+
+

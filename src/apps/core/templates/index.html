@@ -58,7 +58,8 @@ $(document).ready( function() {
 </script>
 {% if not request.GET.s %}
 <blockquote style="background-color: LightYellow; width: 50%; border-bottom-right-radius:14px;">
-	<a href="javascript:hideshow(document.getElementById('intro'))">{% trans "ABOUT" %}</a>
+	<a href="javascript:hideshow(document.getElementById('intro'))">{% trans "ABOUT" %}</a> &nbsp; &nbsp;
+	<a href="~o">{% trans "HOWTO" %}</a>
 </blockquote>
 
 <div id="intro" style="display:none;">
