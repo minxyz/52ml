@@ -12,6 +12,7 @@
 #behavior {  background-color: #E5E4E2; }
 #language {  background-color: #E5E4E2; }
 #stimulation {  background-color: #E5E4E2; }
+#intro { background-color: LightYellow; }
 
 fieldset.radiogroup {
   border-radius: 10px;
@@ -56,8 +57,8 @@ $(document).ready( function() {
 );
 </script>
 {% if not request.GET.s %}
-<blockquote>
-<a href="javascript:hideshow(document.getElementById('intro'))">INFO</a>
+<blockquote style="background-color: LightYellow; width: 50%; border-bottom-right-radius:14px;">
+	<a href="javascript:hideshow(document.getElementById('intro'))">{% trans "ABOUT" %}</a>
 </blockquote>
 
 <div id="intro" style="display:none;">
