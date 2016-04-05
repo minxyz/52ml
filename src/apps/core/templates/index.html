@@ -12,7 +12,7 @@
 #behavior {  background-color: #E5E4E2; }
 #language {  background-color: #E5E4E2; }
 #stimulation {  background-color: #E5E4E2; }
-#intro { background-color: LightYellow; }
+#intro { background-color: LightCyan; }
 
 fieldset.radiogroup {
   border-radius: 10px;
@@ -57,12 +57,14 @@ $(document).ready( function() {
 );
 </script>
 {% if not request.GET.s %}
+<!--
 <blockquote style="background-color: LightYellow; width: 50%; border-bottom-right-radius:14px;">
 	<a href="javascript:hideshow(document.getElementById('intro'))">{% trans "ABOUT" %}</a> &nbsp; &nbsp;
 	<a href="~o">{% trans "HOWTO" %}</a>
 </blockquote>
+-->
 
-<div id="intro" style="display:none;">
+<div id="intro">
 <h1><a id="52ml__Geek_Code_0"></a>52{%trans "ml" %}.xyz</h1>
 <h2><a id="_2"></a>{% trans "A tool for married people describe their spouse's expectations for the degrees of intimacy in making close friends." %}</h2>
 <blockquote>
@@ -91,7 +93,7 @@ $(document).ready( function() {
 <p>In order to do it, we created a kind of <a href="https://en.wikipedia.org/wiki/Geek_Code">Geek Code</a> at <b>52ml.xyz</b> to enable people to clearly describe and share their spouse's expectations regarding the intimacy when making friends. Try it out!</p>
 {% endblocktrans %}
 
-</div> <!-- // intro -->
+</div> <!--// intro -->
 
 <h2><a id="_17"></a>{% trans "Create your 52ml Geek Code!" %}</h2>
 <p>{% trans "To generate your 52ml code, check statements you like, that do not exceed your spouse's expectations." %}</p>
